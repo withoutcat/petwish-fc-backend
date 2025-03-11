@@ -8,14 +8,14 @@
 		<version>2.1.8.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>webframework</artifactId>
+	<groupId>com.withoutcat</groupId>
+	<artifactId>petwish</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>webframework</name>
-	<description>Demo project for Spring Boot</description>
+	<name>petwish</name>
+	<description>petwish backend</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 	</properties>
 	
 	<repositories>

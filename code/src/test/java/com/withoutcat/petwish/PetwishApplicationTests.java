@@ -1,5 +1,6 @@
-package com.example.webframework;
+package com.withoutcat.petwish;
 
+import com.withoutcat.petwish.controller.HealthzController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,11 +11,7 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class WebFrameworkApplicationTests {
+public class PetwishApplicationTests {
 
-	@Test
-	public void testWelcome() {
-		assertEquals(HttpStatus.OK, new WebFrameworkApplication().welcome().getStatusCode());
-	}
 
 }
