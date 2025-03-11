@@ -49,6 +49,18 @@
 					<executable>true</executable>
 				</configuration>
 			</plugin>
+
+			<!-- 显式添加编译插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.12.1</version> <!-- 使用最新稳定版 -->
+				<configuration>
+					<source>11</source>
+					<target>11</target>
+					<release>11</release> <!-- 可选，明确指定 Java 版本 -->
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
