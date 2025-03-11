@@ -45,7 +45,7 @@ resources:
     component: fc3-domain
     props:
       region: ${vars.region}
-      domainName: auto
+      domainName: withoutcat.fun
       protocol: HTTP
       routeConfig:
         routes:
