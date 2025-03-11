@@ -12,6 +12,9 @@ import static org.junit.Assert.assertEquals;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class PetwishApplicationTests {
-
+  @Test
+  public void testWelcome() {
+    assertEquals("这里是withoutcat的健康检查", new HealthzController().healthzCheck());
+  }
 
 }
